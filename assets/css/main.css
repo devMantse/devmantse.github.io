@@ -1,7 +1,7 @@
 @font-face {
-    font-family: myFont;       
-    src: url(https://cdn.bitdegree.org/learn/junction-light.woff);  
-} 
+  font-family: myFont;
+  src: url(https://cdn.bitdegree.org/learn/junction-light.woff);
+}
 * {
   box-sizing: border-box;
 }
@@ -125,7 +125,6 @@ section {
 .content-container {
   margin: 30px;
   text-align: left;
-  
 }
 .content-container > h1 {
   font-size: 35px;
@@ -142,4 +141,8 @@ section {
   flex: 33%;
   text-align: left;
   padding: 10px;
+}
+.intro-paragraph > p {
+  font-size: 32px;
+  letter-spacing: 2px;
 }
