@@ -139,8 +139,8 @@ section {
   margin: 0px 0px 40px 0px;
   font-size: 78px;
   font-weight: 800;
-  line-height: 80px;
-  letter-spacing: -1.9px;
+  line-height: 20px;
+  letter-spacing: 1.9px;
 }
 
 [class*="intro-col"] {
@@ -179,7 +179,7 @@ section {
   padding: 0px 30px 0px 30px;
 }
 .column-half {
-  width: ;
+  width: "";
 }
 
 .column-half > h2 {
@@ -211,6 +211,16 @@ section {
   background-color: #1b1a1a;
   height: 80px;
   margin: 10px;
-
   line-height: 10px;
+}
+.intro-paragraph {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.intro-technologies {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #fff;
 }
