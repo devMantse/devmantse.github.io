@@ -17,6 +17,10 @@ body,
 header,
 div,
 h1,
+h2,
+h3,
+h4,
+h5,
 nav,
 main,
 section {
@@ -213,14 +217,29 @@ section {
   margin: 10px;
   line-height: 10px;
 }
-.intro-paragraph {
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-style: italic;
+.services-container {
+  width: 1260px;
+  height: 568px;
 }
-.intro-technologies {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 58px;
-  color: #fff;
+.services-heading-left {
+  float: left;
+  width: 50%;
+  height: 36;
+}
+.services-heading-right {
+  float: left;
+  width: 50%;
+  height: 36;
+}
+.services-heading h2 {
+  font-size: 36.3px;
+  line-height: 36.3px;
+  text-transform: uppercase;
+}
+.services-heading h4 {
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: rgb(232, 32, 79);
+  text-align: justify;
 }
