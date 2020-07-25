@@ -142,13 +142,16 @@ section {
 .inner-section {
   padding: 70px 40px 70px 40px;
 }
+.section-spacing {
+  padding: 140px 0px 140px 0px;
+}
 .h1-txt {
   font-size: 78px;
   line-height: 65px;
   letter-spacing: 1.9px;
 }
 .cs-btn {
-  background-color: crimson;
+  background-color: #dc143c;
   border: none;
   color: white;
   text-align: center;
@@ -168,11 +171,11 @@ section {
   background-color: #101010;
 }
 .card-bg:hover {
-  background-color: crimson;
+  background-color: #dc143c;
 }
 
 .card-bg-r {
-  background-color: crimson;
+  background-color: #dc143c;
 }
 .cs-info-box h3 {
   color: #ffffff;
@@ -188,9 +191,32 @@ section {
   line-height: 26px;
 }
 .svc-sub-heading {
-  color: crimson;
+  color: #dc143c;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 17px;
+}
+.heading-title {
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.heading-subtitle {
+  color: #dc143c;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services-list {
+  padding: 15px 0px 15px 0px;
+}
+.list-populated {
+  margin: 0px 15px 30px 15px;
+  padding: 0px 0px 0px 0px;
+}
+.inner-section-spacing {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 0px 30px 0px 30px;
 }
