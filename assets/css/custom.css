@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@700&display=swap");
-
-body {
-  background-color: #1f1f1f;
-  height: 100%;
+@font-face {
+  font-family: myFont;
+  src: url(https://cdn.bitdegree.org/learn/junction-light.woff);
 }
+
 h1,
 h2,
 h3,
@@ -17,19 +17,137 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.section{
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+body,
+header,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+nav,
+main,
+section {
+  display: block;
+}
+
+.header {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+  height: 80px;
+  background-color: #1f1f1f;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 20px 0;
+    height: 75px;
+  }
+}
+
+.header .header-limiter {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 460px) {
+  .header .header-limiter {
+    width: auto;
+  }
+}
+
+.header-limiter h1 {
+  float: left;
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  margin: 0;
+}
+
+/* new */
+@media (max-width: 600px) {
+  .header .header-limiter h1 {
+    float: none;
+    margin: -8px 0 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+.header-limiter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-limiter nav {
+  font: 15px Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  float: right;
+}
+
+/* new */
+@media (max-width: 600px) {
+  .header .header-limiter nav {
+    line-height: 1;
+    float: none;
+  }
+}
+
+.header-limiter nav a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 5px;
+
+  text-decoration: none;
+  color: #fff;
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .header .header-limiter nav a {
+    font-size: 13px;
+  }
+}
+
+.float-box {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+@media (max-width: 480px) {
+  .float-box {
+    clear: left;
+    width: 100%;
+  }
+}
+
+.section {
   margin-top: -170px;
   padding-top: 170px;
 }
-.inner-section{
+.inner-section {
   padding: 70px 40px 70px 40px;
 }
-.h1-txt{
-  font-size:78px; 
-  line-height: 65px; 
+.h1-txt {
+  font-size: 78px;
+  line-height: 65px;
   letter-spacing: 1.9px;
 }
-.cs-btn{
+.cs-btn {
   background-color: crimson;
   border: none;
   color: white;
@@ -40,39 +158,39 @@ p {
   box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25),
     0 18px 51px 0 rgba(0, 0, 0, 0.2);
 }
-.info-section{
+.info-section {
   padding: 70px 15px 0px 15px;
 }
-.cs-info-box{
-  padding:60px 40px 60px 40px;
+.cs-info-box {
+  padding: 60px 40px 60px 40px;
 }
-.card-bg{
+.card-bg {
   background-color: #101010;
 }
-.card-bg:hover{
+.card-bg:hover {
   background-color: crimson;
 }
 
-.card-bg-r{
-  background-color:crimson;
+.card-bg-r {
+  background-color: crimson;
 }
 .cs-info-box h3 {
- color: #ffffff;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.4em;
-    margin: 0px 0px 5px 0px;
-}
-.cs-info-box p{
   color: #ffffff;
-    
-    font-size: 17px;
-    line-height: 26px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin: 0px 0px 5px 0px;
 }
-.svc-sub-heading{
-  color:crimson;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 17px;
+.cs-info-box p {
+  color: #ffffff;
+
+  font-size: 17px;
+  line-height: 26px;
+}
+.svc-sub-heading {
+  color: crimson;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
 }
