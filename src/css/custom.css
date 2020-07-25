@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@700&display=swap");
+
+body {
+  background-color: #1f1f1f;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section{
+  margin-top: -170px;
+  padding-top: 170px;
+}
+.inner-section{
+  padding: 70px 40px 70px 40px;
+}
+.h1-txt{
+  font-size:78px; 
+  line-height: 65px; 
+  letter-spacing: 1.9px;
+}
+.cs-btn{
+  background-color: crimson;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.9rem 3.1rem;
+  box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25),
+    0 18px 51px 0 rgba(0, 0, 0, 0.2);
+}
+.info-section{
+  padding: 70px 15px 0px 15px;
+}
+.cs-info-box{
+  padding:60px 40px 60px 40px;
+}
+.card-bg{
+  background-color: #101010;
+}
+.card-bg:hover{
+  background-color: crimson;
+}
+
+.card-bg-r{
+  background-color:crimson;
+}
+.cs-info-box h3 {
+ color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 0px 0px 5px 0px;
+}
+.cs-info-box p{
+  color: #ffffff;
+    
+    font-size: 17px;
+    line-height: 26px;
+}
+.svc-sub-heading{
+  color:crimson;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 17px;
+}
