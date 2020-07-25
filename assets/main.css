@@ -32,7 +32,7 @@ section {
   box-sizing: border-box;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
   height: 80px;
-  background-color: #000;
+  background-color: #1f1f1f;;
 }
 
 @media (max-width: 600px) {

@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #000;
-  color: #fff;
-}
-
 body,
 header,
 div,
@@ -136,13 +129,4 @@ section {
 .content-row {
   display: flex;
   flex-wrap: wrap;
-}
-[class*="content-col-"] {
-  flex: 33%;
-  text-align: left;
-  padding: 10px;
-}
-.intro-paragraph > p {
-  font-size: 32px;
-  letter-spacing: 2px;
 }
