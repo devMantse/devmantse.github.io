@@ -26,9 +26,35 @@
     <link rel="stylesheet" href="./assets/css/custom.css" />
     <link rel="stylesheet" href="./assets/css/custom.scss" />
     <script type="text/javascript" src="assets/main.js"></script>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
   </head>
 
   <body>
+    <script>
+      var mySwiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        direction: "vertical",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+
     <header class="header">
       <div class="header-limiter">
         <h1>
@@ -43,20 +69,20 @@
       </div>
     </header>
 
-    <section class="section">
+    <section class="section-spacing">
       <div class="container-fluid">
         <div class="row inner-section">
           <div class="col-lg-7 col-md-5 col-sm">
-            <div class="w-100">
-              <h1 class="text-white mb-5 h1-txt">
+            <div class="text-white mb-5">
+              <h1 class="h1-txt">
                 devMantse, Freelance Developer
               </h1>
+            </div>
 
-              <div class="">
-                <button type="button" class="btn btn-default cs-btn">
-                  Getting Started
-                </button>
-              </div>
+            <div class="">
+              <button type="button" class="btn btn-default cs-btn">
+                Getting Started
+              </button>
             </div>
           </div>
         </div>
@@ -65,7 +91,7 @@
     <section class="info-section">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 col-lg-4 col-sm-12">
+          <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card card-bg-r">
               <div class="card-body">
                 <div class="cs-info-box">
@@ -79,7 +105,7 @@
             </div>
           </div>
 
-          <div class="col-md-12 col-lg-4 col-sm-12">
+          <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card card-bg">
               <div class="card-body">
                 <div class="cs-info-box">
@@ -92,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-4 col-sm-12">
+          <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card card-bg">
               <div class="card-body">
                 <div class="cs-info-box">
@@ -119,7 +145,6 @@
               <h2 class="heading-title">services</h2>
               <p class="heading-subtitle">i work with you, not for you</p>
             </div>
-            <div class="col"></div>
           </div>
         </div>
       </div>
@@ -127,63 +152,63 @@
       <section class="services-list">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Digital Strategy</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">UX Design</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Product Design</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Content Strategy</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Social Media</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Design & Concept</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Media Planning</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">Web Development</h5>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="list-populated">
                 <div class="card card-bg">
                   <h5 class="list-title pl-5 py-4">SEO</h5>
@@ -203,10 +228,80 @@
               <h2 class="heading-title">Works.</h2>
               <p class="heading-subtitle">things i've made</p>
             </div>
-            <div class="col"></div>
           </div>
         </div>
       </div>
+       <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Beacon Survey Ghana</h4>
+            <p>Web Design</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Campus Sneakers</h4>
+            <p>Social Media Marketing</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Deoke Consult</h4>
+            <p>Media Planning</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Optimum Cleaning</h4>
+            <p>SEO</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Getts Detergent</h4>
+            <p>Product Design</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-center p-5 m-5">
+            <h4 class="mb-2">Maurjoe Consult</h4>
+            <p>Web Design</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
     </section>
+
+   
+
+    <!-- Swiper JS -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
