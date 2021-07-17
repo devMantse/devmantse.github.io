@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>devMantse | Portfolio</title>
     <!--styles-->
-    <link rel="stylesheet" href="./src/css/custom.min.css">
-</head>
-<body>
-    <h1>Hello World</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+    <link rel="stylesheet" href="./src/css/custom.min.css" />
+  </head>
+  <body>
+    <style>
+      section {
+        padding: 60px 0px;
+      }
+    </style>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#">devMantse</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justifiy-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<button type="button" class="btn btn-link">Link</button>
+    <!--intro-->
+    <section id="intro">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <h1>
+              <div class="display-3 text-white mb-2">Hello World,<br>I'm devMantse</div>
+              <div class="h4 lead text-white">
+                A passionate Full Stack Web Developer.
+              </div>
+            </h1>
+            <div class="mt-4">
+              <a href="https://github.com/devMantse"
+                ><i
+                  class="bi-github text-primary"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="Github"
+                  role="img"
+                  aria-label="GitHub"
+                ></i
+              ></a>
+            </div>
+            <a href="#" class="btn btn-primary my-4">download CV</a>
+          </div>
 
-</body>
+          <div class="col-md-6 text-center">
+            <img src="./images/me.jpg" alt="devMantse" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    section.#
+
+    <!--scripts-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
 </html>
