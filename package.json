@@ -1,7 +1,12 @@
 {
+  "name": "devMantse-Portfolio",
+  "version": "1.0.0",
+  "description": "my web development portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/devMantse",
+  "author": "devMantse",
+  "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.0",
-    "bootstrap-icons": "^1.0.0-alpha5",
-    "swiper": "^6.1.1"
+    "bootstrap": "^5.0.2"
   }
 }

@@ -1,1 +1,0 @@
-# devmantse.github.io
